@@ -1,0 +1,173 @@
+html{
+	font-size: 62.5%;
+}
+
+body{
+	margin: 0 auto;
+	max-width: 70rem;
+}
+
+header{
+	width: 100%;
+	padding: 2rem;
+	background: #34bedc;
+	overflow: hidden;
+}
+
+.content{
+	width: 100%;
+	padding: 4% 0;
+	background: #f0f0f0;
+}
+
+.last{
+	position: relative;
+	width: 90%;
+	margin: 0 auto;
+    height: 10rem;
+    line-height: 10rem;
+    text-align: center;
+    background: #fff;
+}
+
+.last p{
+	position: relative;
+	margin: 0;
+    font-size: 3.6rem;
+	color: #a0a0a0;
+}
+.last a{
+	position: absolute;
+	top: 0;
+	right: 5%;
+}
+ul{
+	width: 90%;
+	margin: 3% auto 0;
+	background: #fff;
+	list-style: none;
+}
+.list-group-item-game{
+	text-align: center;
+	color: #fbb435;
+	height: 6rem;
+	line-height: 6rem;
+	font-size: 3.4rem;
+	border-bottom: 1px solid #fbb435;
+	margin: 0 2rem;
+}
+.list-group-item{
+	border:none;
+	text-align: center;
+	font-size: 2rem;
+	color: #787878;
+}
+.list-group-item-choose{
+	width: 80%;
+	height: 12rem;
+	line-height: 12rem;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 3.4rem;
+	color: #fff;
+	background: #6dd2e9;
+}
+.nextpage{
+	position: absolute;
+	right: 3%;
+	top: 30%;
+	width: 0;
+	height: 0;
+	border-top: 30px solid transparent;
+	border-left: 30px solid #fbb435;
+	border-bottom: 30px solid transparent;
+}
+
+.list-group-item-turn{
+	width: 8rem;
+	height: 4rem;
+	margin: 2% auto;
+	overflow: hidden;
+
+}
+
+.list-group-item-switch{
+	float: left;
+	height: 1.5rem;
+	width: 1.5rem;
+	border-radius: 50%;
+	border: 1px solid #f0f0f0;
+	margin: 1%;
+    background: #f0f0f0;
+}
+.list-group-item-switch:hover{
+	background: #69d1e9;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+	.last{
+    height: 5rem;
+    line-height: 5rem;
+}
+
+.last p{
+    font-size: 2.2rem;
+}
+.last a img{
+	width: 15px;
+	height:24px;
+}
+.list-group-item-game{
+	height: 5rem;
+	line-height: 5rem;
+	font-size: 2.5rem;
+}
+.list-group-item-choose{
+	height: 6rem;
+	line-height: 6rem;
+	font-size: 2.4rem;
+}
+.list-group-item{
+	font-size: 1.4rem;
+}
+.nextpage{
+	top: 2.5rem;
+	border-top: 15px solid transparent;
+	border-left: 15px solid #fbb435;
+	border-bottom: 15px solid transparent;
+}
+}
+
+@media screen and (min-width: 480px) and (max-width: 600px){
+	.last{
+    height: 7rem;
+    line-height: 7rem;
+}
+
+.last p{
+    font-size: 2.8rem;
+}
+.last a img{
+	width: 20px;
+	height:30px;
+}
+.list-group-item-game{
+	height: 7rem;
+	line-height: 7rem;
+	font-size: 3rem;
+}
+.list-group-item-choose{
+	height: 8rem;
+	line-height: 8rem;
+	font-size: 3rem;
+}
+.list-group-item{
+	font-size: 1.8rem;
+}
+.nextpage{
+	top: 3.4rem;
+	border-top: 20px solid transparent;
+	border-left: 20px solid #fbb435;
+	border-bottom: 20px solid transparent;
+}
+}
